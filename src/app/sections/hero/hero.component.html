@@ -1,47 +1,48 @@
-<section class="min-h-[100svh] flex flex-col  text-center bg-ivory relative">
-  <section class="flex w-full justify-between h-80 font-serif">
-    <div class="text-5xl md:text-6xl justify-end items-end flex ml-4 mb-2">
-      S A V E
-    </div>
-    <div class="flex h-full gap-4 mr-6">
-      <div class="text-6xl mt-20">
+<section class="min-h-[100svh] flex flex-col text-center bg-gradient-to-b from-ivory via-ivory to-cream relative overflow-hidden">
+  <!-- L | A pegado arriba -->
+  <section class="flex w-full justify-end font-serif pr-12">
+    <div class="flex gap-4 h-72">
+      <div class="text-6xl font-light self-end leading-none reveal-letter reveal-letter--l text-mocha">
         L
       </div>
-      <div class="bg-black border border-black w-[1.5px] h-full"></div>
-      <div class="text-6xl mt-20">
+      <div class="bg-mocha w-[1.5px] h-full origin-top reveal-bar"></div>
+      <div class="text-6xl font-light self-end leading-none reveal-letter reveal-letter--a text-mocha">
         A
       </div>
     </div>
   </section>
 
-  <section class="w-full px-6 text-left mb-20">
-    <div class="flex items-center">
-      <span class="font-script text-5xl md:text-6xl normal-case mt-3 ml-1">
-        the
-      </span>
-      <div class="w-4"></div>
-      <div class="font-serif text-5xl md:text-6xl mt-2">
-        D A T E
+  <!-- Resto del Save the Date más abajo -->
+  <section class="flex-1 flex flex-col justify-end pb-24">
+    <div class="w-full text-left mb-6 px-12">
+      <div class="font-serif font-light text-5xl md:text-6xl text-mocha" [appReveal]="200" revealVariant="left">
+        S A V E
       </div>
     </div>
-  </section>
 
-  <section class="w-full flex flex-col items-end pr-4 gap-3 ">
-    <p class="uppercase tracking-[0.2em] text-2xl mb-5 font-semibold font-serif">
-      Larizza & Alonso
-    </p>
-    <p class="uppercase tracking-[0.3em] text-sm md:text-base">
-      07 · Noviembre · 2026
-    </p>
-    <p class=" tracking-[0.2em] text-md md:text-lg font-script">
-      Te elijo hoy, mañana y todos los días.
-    </p>
-  </section>
-
-  <!-- Flecha -->
-  <div class="absolute bottom-12 md:bottom-14 left-1/2 -translate-x-1/2 flex flex-col items-center">
-    <div class="arrow-wrapper">
-      <div class="arrow-down"></div>
+    <div class="w-full px-12 text-left mb-14">
+      <div class="flex items-center">
+        <span class="font-script text-5xl md:text-6xl normal-case mt-3 ml-1 text-accent" [appReveal]="450" revealVariant="left">
+          the
+        </span>
+        <div class="w-4"></div>
+        <div class="font-serif font-light text-5xl md:text-6xl mt-2 text-mocha" [appReveal]="600" revealVariant="left">
+          D A T E
+        </div>
+      </div>
     </div>
-  </div>
+
+    <div class="w-full flex flex-col items-end pr-12 gap-3">
+      <p class="uppercase tracking-[0.2em] text-2xl mb-5 font-light font-serif text-mocha" [appReveal]="850" revealVariant="right">
+        Larizza & Alonso
+      </p>
+      <p class="uppercase tracking-[0.3em] text-sm md:text-base text-accent" [appReveal]="1000" revealVariant="right">
+        07 · Noviembre · 2026
+      </p>
+      <p class="tracking-[0.2em] text-md md:text-lg font-script text-accent" [appReveal]="1150" revealVariant="right">
+        Te elijo hoy, mañana y todos los días.
+      </p>
+    </div>
+  </section>
+
 </section>

@@ -1,0 +1,48 @@
+<section id="schedule" class="bg-gradient-to-b from-cream to-sand px-6 py-20 text-ink scroll-mt-4">
+  <div class="max-w-md mx-auto text-center">
+    <p class="uppercase tracking-[0.35em] text-xs text-accent mb-3" [appReveal]="0">Itinerario</p>
+    <h2 class="font-serif font-light text-4xl md:text-5xl mb-14 text-mocha" [appReveal]="120">Nuestro día</h2>
+
+    <!-- Timeline -->
+    <div class="max-w-xs mx-auto">
+      <div class="relative">
+        <!-- Línea vertical pasa exacto por el centro de los círculos -->
+        <div class="absolute left-[11px] top-3 bottom-3 w-px bg-accent/50"></div>
+
+        <ul class="space-y-12 text-left">
+          <li class="relative flex items-start gap-6" [appReveal]="0">
+            <span class="relative z-10 mt-1.5 w-[22px] h-[22px] rounded-full border border-mocha bg-ivory shrink-0"></span>
+            <div>
+              <p class="uppercase tracking-[0.3em] text-sm text-mocha mb-1">15:30 hrs</p>
+              <p class="font-serif text-xl text-mocha">Ceremonia</p>
+            </div>
+          </li>
+
+          <li class="relative flex items-start gap-6" [appReveal]="150">
+            <span class="relative z-10 mt-1.5 w-[22px] h-[22px] rounded-full border border-mocha bg-ivory shrink-0"></span>
+            <div>
+              <p class="uppercase tracking-[0.3em] text-sm text-mocha mb-1">17:30 hrs</p>
+              <p class="font-serif text-xl text-mocha">Civil</p>
+            </div>
+          </li>
+
+          <li class="relative flex items-start gap-6" [appReveal]="300">
+            <span class="relative z-10 mt-1.5 w-[22px] h-[22px] rounded-full border border-mocha bg-ivory shrink-0"></span>
+            <div>
+              <p class="uppercase tracking-[0.3em] text-sm text-mocha mb-1">18:00 hrs</p>
+              <p class="font-serif text-xl text-mocha">Recepción</p>
+            </div>
+          </li>
+
+          <li class="relative flex items-start gap-6" [appReveal]="450">
+            <span class="relative z-10 mt-1.5 w-[22px] h-[22px] rounded-full border border-mocha bg-ivory shrink-0"></span>
+            <div>
+              <p class="uppercase tracking-[0.3em] text-sm text-mocha mb-1">19:00 hrs</p>
+              <p class="font-serif text-xl text-mocha">Cena</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
