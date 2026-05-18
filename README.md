@@ -1,6 +1,8 @@
-# WeddingInvitation
+# Invitación de boda — Larizza & Alonso
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.20.
+Invitación digital para el 07 de noviembre de 2026.
+
+Built with Angular 19 + Tailwind CSS.
 
 ## Development server
 
