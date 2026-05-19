@@ -16,7 +16,7 @@ export class RsvpComponent {
     if (typeof window === 'undefined') return 1;
     const params = new URLSearchParams(window.location.search);
     const code = parseInt(params.get('code') ?? '', 10);
-    return [1, 2, 3, 4].includes(code) ? code : 1;
+    return Number.isInteger(code) && code > 0 ? code : 1;
   }
 
   get passesLabel(): string {
